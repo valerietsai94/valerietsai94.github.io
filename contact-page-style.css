@@ -1,0 +1,196 @@
+.list-contact {
+    background: #F7D3F9;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    width: 450px;
+    height: 350px;
+    cursor: pointer;
+    font-family: Raleway;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.list-contact2 {
+    background: #F7D3F9;
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    width: 450px;
+    height: 350px;
+    cursor: pointer;
+    font-family: Raleway;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+.list-name {
+    margin-bottom: 20px;
+}
+
+.list-email {
+    margin-bottom: 20px;
+}
+
+.list-subject {
+    margin-bottom: 20px;
+}
+
+.list-message {
+    margin-bottom: 20px;
+}
+
+.list-send {
+    background: #F7D3F9;
+    float: right;
+    padding: 0px 30px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-top: 10px;
+    color: white;
+    font-family: raleway;
+}
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.clear {
+clear: both;
+}
+
+.img-scaled {
+width: 100%;
+}
+
+.img-scaled-wh {
+width: 100%;
+height: 100%;
+}
+
+#modal-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#modal-container2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+}
+
+#modal-overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-overlay2 {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#modal-box {
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    z-index: 100;
+    top: calc(20%);
+    bottom: calc(25%);
+    left: calc(25%);
+    right: calc(25%);
+}
+
+#modal-box2 {
+    position: absolute;
+    width: 500px;
+    height: 260px;
+    z-index: 100;
+    top: calc(20%);
+    bottom: calc(25%);
+    left: calc(25%);
+    right: calc(25%);
+}
+
+.list-login {
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.name {
+    width: 85%;
+    height: 30px;
+    position: relative;
+}
+
+.email {
+    position: relative;
+    top: 15px;
+    width: 85%;
+    height: 30px;
+}
+
+.message {
+    position: relative;
+    top: 30px;
+    width: 85%;
+    height: 30px;
+}
+
+.list-send {
+    position: relative;
+    width: 90px;
+    height: 35px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    right: -350px;
+    bottom: -45px;
+    font-size: 15px;
+    cursor: pointer;
+    /*display: inline-block;*/
+}
+
+.name, .email, .message {
+    border: 4px solid white;
+    padding: 10px;
+    background: transparent;
+    margin: 0px;
+    width: 85%;
+    height: 40px;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    font-color: white;
+    display: inline-block;
+}
+
+.email::-webkit-input-placeholder  {
+color: white;
+}
+
+.name::-webkit-input-placeholder  {
+color: white;
+}
+
+.message::-webkit-input-placeholder  {
+color: white;
+}
+
+.textfix {
+    position: relative;
+    top: 20%;
+}
+
+.textfix2 {
+    position: relative;
+    top: 20%;
+}
